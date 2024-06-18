@@ -10,7 +10,7 @@ pipeline {
         version = ''
     }
 
-
+stages{
     stage("Build stage"){
             steps {
                 
@@ -24,4 +24,4 @@ pipeline {
 
             }
         }
-}
+}}
