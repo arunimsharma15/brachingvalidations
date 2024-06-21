@@ -20,7 +20,7 @@ stages{
                 script {
                     version = sh(script: "mvn -q -Dexec.executable=echo -Dexec.args='\${project.version}' --non-recursive exec:exec", returnStdout: true).trim()
                 }
-                echo "----------- build complted ----------"
+                echo "----------- build completed ----------"
 
             }
         }
